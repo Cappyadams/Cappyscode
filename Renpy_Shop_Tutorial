@@ -1,0 +1,9 @@
+label rubiesflowers:
+if Rubies >= 50:
+    $ Flowers = True
+    $ Rubies -=50
+    shop "Thanks for the rubies!"
+    jump shopmore
+else:
+    shop "You don't have enough Rubies!"
+    jump shopmore
