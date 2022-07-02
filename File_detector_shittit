@@ -1,0 +1,5 @@
+python:
+    try:
+        renpy.file("../game/(folder)/(filename).png")
+    except:
+        renpy.jump("labelname")
